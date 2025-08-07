@@ -1,5 +1,4 @@
 import Navbar from '@/components/Navbar/Navbar'
-import { Home } from 'lucide-react'
 import React from 'react'
 import HeroContent from '@/components/landingPage/heroContent' 
 import SpecialCard from '@/components/homeCards/specialCard'
@@ -11,6 +10,11 @@ import CorporateTraining from '@/components/homeCards/CorporateTraining'
 import AlumniMarquee from '@/components/homeCards/aluminiMarque'
 import Feedback from '@/components/homeCards/Feedback'
 import Footer from '@/components/homeCards/footer'
+import Video from '@/components/homeCards/video'
+import CursorTrail from '@/components/homeCards/cursorTrail'
+
+
+
 
 
 
@@ -26,7 +30,9 @@ const page = () => {
       <Marque/>
       <CorporateTraining/>
       <AlumniMarquee/>
+      <CursorTrail/>
       <Feedback/>
+      {/* <Video/> */}
       <Footer/>
 
     </div>

@@ -4,7 +4,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import WrapButton from '../ui/wrap-button'
-import ImageRippleDemo from '@/components/homeCards/ImageRippleDemo'
 
 
 
@@ -37,7 +36,7 @@ const CorporateTraining = () => {
 <>
 <h2 className=" text-center text-3xl  font-bold my-10">Elevate Corporate Training</h2>
 
-<div className='w-full h-120 py-12 px-8 text-center      flex flex-basis:50% justify-between '>
+<div className='p-6 rounded-2xl shadow-[0_0_20px_#00000033] dark:shadow-[0_0_20px_#ffffff33] w-full h-120 py-12 px-8 text-center   mb-10   flex flex-basis:50% justify-between '>
      <div className='flex '>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-5xl mx-auto">
          <ul className="space-y-8 text-lg">

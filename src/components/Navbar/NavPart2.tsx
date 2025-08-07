@@ -6,7 +6,7 @@ import ThemeToggleButton from "@/components/ui/theme-toggle-button";
 
 const NavPart2 = () => {
   return (
-    <div className="flex gap-4 items-center">
+    <div className="p-6 rounded-2xl shadow-[0_0_20px_#00000033] dark:shadow-[0_0_20px_#ffffff33] flex gap-4 items-center">
       <button className="inline-flex items-center whitespace-nowrap ring-gray-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border  px-4 py-2 group relative h-9 w-full justify-start rounded-full bg-backgound text-sm font-normal text-muted-foreground shadow-none sm:pr-12 md:w-40 lg:w-64">
         <span className="hidden   lg:inline-flex ">Search Cources...</span>
         <span className="inline-flex   lg:hidden">Search...</span>

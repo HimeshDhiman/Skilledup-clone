@@ -14,8 +14,12 @@ const CardCarouselParent = () => {
 
 
   return (
-    <div className='m-10'>
+    <div>
+      <div className='m-10'>
       <CardCarousel  images={images}/>
+    </div>
+    
+
     </div>
   )
 }

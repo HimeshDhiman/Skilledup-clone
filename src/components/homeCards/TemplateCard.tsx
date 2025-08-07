@@ -33,8 +33,8 @@ const courses = [
 
 const TemplateCard = () => {
   return (
-    <div className=" bg-card text-card-foreground dark:bg-[#1a1a1a]  dark:text-gray-100 w-full py-10  mb-10">
-        <h4 className="text-black/80 text-center font-bold text-4xl mt-12 mb-12">
+    <div className="p-6 rounded-2xl shadow-[0_0_20px_#00000033] dark:shadow-[0_0_20px_#ffffff33] bg-card text-card-foreground dark:bg-[#1a1a1a]  dark:text-gray-100 w-full py-10  mb-10">
+        <h4 className="text-[#101828] dark:text-white md:text-2xl  text-center   font-bold text-6xl mt-12 mb-12">
         Industry-Driven Courses for Career Success 
       </h4>
         

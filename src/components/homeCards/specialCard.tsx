@@ -16,7 +16,7 @@ import { div } from "framer-motion/client";
 const SpecialCard = () => {
   return (
 
-<div className="bg-background dark:bg-[#121212] ">
+<div className="p-6 rounded-2xl shadow-[0_0_20px_#00000033] dark:shadow-[0_0_20px_#ffffff33] bg-background dark:bg-[#121212] ">
     <div className="my-20 ">
 
 
@@ -67,7 +67,6 @@ const SpecialCard = () => {
             step2light2: card7,
             step3light: card8,
             step4light: card8,
-            step1light1: card9,
 
             alt: "something",
           }}

@@ -18,7 +18,7 @@ import FlipLink from '../ui/text-effect-flipper';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0B0B0F] text-muted-foreground  text-sm">
+    <footer className="p-6 rounded-2xl shadow-[0_0_20px_#00000033] dark:shadow-[0_0_20px_#ffffff33] bg-[#0B0B0F] text-muted-foreground  text-sm">
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-10">
 
         <div>

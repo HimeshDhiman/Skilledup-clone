@@ -5,7 +5,7 @@ import WrapButton from '../ui/wrap-button';
 const heroContent = () => {
   return (
     <div className=" bg-background text-foreground min-h-150  flex items-center justify-center px-2 py-5">
-      <div className="bg-white rounded-3xl shadow-md w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+      <div className="p-4 rounded-lg shadow-md shadow-black dark:shadow-white bg-white dark:bg-[#121212] transition-colors duration-300 w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 overflow-hidden">
         
         {/* Left: Image + Text */}
         <div className="bg-card text-card-foreground p-2 md:p-10   flex flex-col justify-center items-start space-y-6 relative">
